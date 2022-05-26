@@ -1,0 +1,121 @@
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color:lightsteelblue;
+    direction: ltr;
+}
+.container
+{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+ul {
+    padding: 0;
+    margin: 0;
+   }
+header {
+    background: lightsteelblue;
+    color:lavender;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #808080 5px solid;
+}
+header a {
+    
+    color:ghostwhite;
+   text-decoration:none;
+   font-size: 19px;
+   font-weight:bold;
+}
+header li {
+   float:left;
+   display:inline;
+   padding:0 20px 0 20px;
+
+}
+    header #brand {
+        float: left;
+        
+    }
+        header #brand h1 {
+            margin: 0;
+            color:ghostwhite;
+        }
+    header nav {
+        float: right;
+        margin-top:10px;
+    }
+    header .current a {
+        margin-left:20px;
+        color:lavender;
+        font-weight: bold;
+    }
+    header a:hover {
+        color:darksalmon;
+        font-weight: bold;
+        text-decoration:underline;
+    }
+#showcase {
+    min-height:300px;
+    background: url("../PPhoto/A.jpg") ;
+    background-size:contain;
+}
+#newletter {
+    padding: 0;
+    color: ghostwhite;
+    background-color:grey;
+    font-weight: lighter;
+}
+    #newletter:hover {
+        padding: 0;
+        color:darksalmon;
+        background-color: ghostwhite;
+    }
+    #newletter h1 {
+        float: left;
+    }
+    #newletter form {
+        float: right;
+        margin-top:15px;
+    }
+    #newletter input[type=text] 
+    {
+        padding:4px;
+        height:25px;
+        width:250px;
+    }
+.button {
+    height: 38px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: ghostwhite;
+    color: darksalmon;
+}
+    .button:hover {
+        background-color:lightcoral;
+        color:blanchedalmond;
+        font-weight: bold;
+    }
+    #boxes
+    {
+        margin-top:20px;
+
+    }
+ #boxes .box  {
+    float:left;
+    text-align:center;
+    width:30%;
+    padding:10px;
+   
+        }
+footer {
+    padding: 10px;
+    color: ghostwhite;
+    background-color: grey;
+    color: ghostwhite;
+    text-align: left;
+    font-weight: normal;
+    font-size: 15px;
+}
